@@ -1,0 +1,16 @@
+{
+  "name": "AstroPeliculasOfSearchBot",
+  "description": "Un bot buscador de películas con la ayuda de la API de TheMovieDB.",
+  "version": "0.0.1",
+  "keywords": ["buscador de películas", "películas", "TheMovieDB", "TMDB", "bot de películas"],
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.50.0",
+    "axios": "^0.21.1",
+    "sharp": "^0.28.3"
+  }
+}
